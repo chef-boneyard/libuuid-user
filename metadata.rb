@@ -1,0 +1,6 @@
+name             'libuuid-user'
+maintainer       'Chef Software, Inc.'
+maintainer_email 'cookbooks@chef.io'
+license          'Apache 2.0'
+description      'Set a nologin shell for the libuuid user on Ubuntu/Debian and validate that it is correct.'
+version          '1.0.0'
