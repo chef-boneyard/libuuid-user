@@ -19,7 +19,7 @@
 #
 
 user 'libuuid' do
-  shell '/usr/sbin/nologin'
+  shell '/bin/false'
   home '/var/lib/libuuid'
   system true
 end

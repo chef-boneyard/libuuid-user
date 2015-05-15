@@ -21,7 +21,7 @@
 control_group 'Verify libuuid user' do
   control 'Verify libuuid cannot login with a shell' do
     it 'has /usr/sbin/nologin set for the libuuid user shell' do
-      expect(user('libuuid')).to have_login_shell('/usr/sbin/nologin')
+      expect(user('libuuid')).to have_login_shell('/bin/false')
     end
   end
 end

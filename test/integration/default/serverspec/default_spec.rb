@@ -20,6 +20,5 @@ require 'spec_helper'
 describe 'libuuid-user::default' do
   describe(command('su - libuuid')) do
     its(:exit_status) { should eq 1 }
-    its(:stdout) { should match(/This account is currently not available/) }
   end
 end
