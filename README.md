@@ -1,5 +1,8 @@
 # libuuid-user
 
+[![Build Status](https://travis-ci.org/chef-cookbooks/libuuid-user.svg?branch=master)](https://travis-ci.org/chef-cookbooks/libuuid-user)
+[![Cookbook Version](https://img.shields.io/cookbook/v/libuuid-user.svg)](https://supermarket.chef.io/cookbooks/libuuid-user)
+
 Set a non-login shell for the libuuid user on Ubuntu/Debian and validate that it is correct.
 
 This cookbook serves two purposes.
