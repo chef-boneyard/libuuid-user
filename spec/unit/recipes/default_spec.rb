@@ -1,10 +1,8 @@
 require 'spec_helper'
 
-describe 'default recipe on Ubuntu 14.04' do
+describe 'default recipe on Ubuntu 16.04' do
   let(:chef_run) do
-    ChefSpec::ServerRunner.new do |node|
-      node.automatic[:lsb][:codename] = 'trusty'
-    end.converge('libuuid-user::default')
+    ChefSpec::ServerRunner(platform: 'ubuntu', version: '16.04').converge('libuuid-user::default')
   end
 
   it 'converges successfully' do
