@@ -7,12 +7,13 @@ provisioner:
     audit_mode: :enabled
 
 platforms:
+  - name: debian-7.11
+  - name: debian-8.7
   - name: ubuntu-14.04
-  - name: debian-7.10
+  - name: ubuntu-16.04
 
 suites:
   - name: default
     run_list:
       - recipe[libuuid-user::default]
       - recipe[libuuid-user::verify]
-    attributes:
