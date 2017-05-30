@@ -1,7 +1,6 @@
 # libuuid-user
 
-[![Build Status](https://travis-ci.org/chef-cookbooks/libuuid-user.svg?branch=master)](https://travis-ci.org/chef-cookbooks/libuuid-user)
-[![Cookbook Version](https://img.shields.io/cookbook/v/libuuid-user.svg)](https://supermarket.chef.io/cookbooks/libuuid-user)
+[![Build Status](https://travis-ci.org/chef-cookbooks/libuuid-user.svg?branch=master)](https://travis-ci.org/chef-cookbooks/libuuid-user) [![Cookbook Version](https://img.shields.io/cookbook/v/libuuid-user.svg)](https://supermarket.chef.io/cookbooks/libuuid-user)
 
 Set a non-login shell for the libuuid user on Ubuntu/Debian and validate that it is correct.
 
@@ -44,8 +43,8 @@ Other platforms are not supported. Older versions of Ubuntu or Debian may work w
 
 ## License and Author
 
-* Author: Joshua Timberman <joshua@chef.io>
-* Copyright (c) 2015 Chef Software, Inc. <legal@chef.io>
+- Author: Joshua Timberman [joshua@chef.io](mailto:joshua@chef.io)
+- Copyright (c) 2015 Chef Software, Inc. [legal@chef.io](mailto:legal@chef.io)
 
 ```text
 Licensed under the Apache License, Version 2.0 (the "License");
