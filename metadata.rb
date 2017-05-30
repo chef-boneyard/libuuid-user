@@ -10,5 +10,6 @@ version          '1.0.1'
   supports os
 end
 
-source_url 'https://github.com/chef-cookbooks/libuuid-user' if respond_to?(:source_url)
-issues_url 'https://github.com/chef-cookbooks/libuuid-user/issues' if respond_to?(:issues_url)
+source_url 'https://github.com/chef-cookbooks/libuuid-user'
+issues_url 'https://github.com/chef-cookbooks/libuuid-user/issues'
+chef_version '>= 12.1' if respond_to?(:chef_version)
